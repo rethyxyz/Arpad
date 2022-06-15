@@ -56,8 +56,8 @@ Note, I replace `raise`/`run`/`cycle` below with just `raise`.
 - Windows + F8: `Foobar2000` Next track.
 
 ## Command Keys
-- Windows + Enter: Raise Cmder.
-- Windows + Shift + Enter: Raise Cmder.
+- Windows + Enter: Raise `Cmder`.
+- Windows + Shift + Enter: Raise `Cmder`.
 - Pause: Send `Ctrl + W`.
 - Capslock: Send `Escape`.
 

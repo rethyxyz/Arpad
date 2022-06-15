@@ -223,7 +223,7 @@ MsNatural4000_Favorites4:
 	RaiseOrRun(gVim[1], gVim[2])
 	return
 MsNatural4000_Favorites5:
-	RaiseOrRun(Foobar2000[1], Foobar2000[2])
+	RaiseOrRun(Clementine[1], Clementine[2])
 	return
 
 MsNatural4000_MyFavorites:
