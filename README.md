@@ -1,4 +1,4 @@
-# Arpad: Key System
+# Arpad
 <center>
     <img src="arpad.jpg" width=300px>
 
