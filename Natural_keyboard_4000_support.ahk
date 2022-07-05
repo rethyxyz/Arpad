@@ -1,5 +1,5 @@
 /*
- * This script was not created by Brody Rethy.
+ * This script was NOT created by Brody Rethy.
  *
  * I've been carrying this around for years, but forget who made it. I'll credit
  * the person whenever I find out.
