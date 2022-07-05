@@ -75,8 +75,21 @@ f_scratchpad   = "C:\Users\" . A_UserName . "\Desktop\Scratchpad.txt"
 /* Bind Generic Variables
  *
  * This checks to make sure the programs sourced actually exist prior to
- * bind. Quite redundant. I'll find a better way in the future.
+ * bind. Quite redundant, and not very modular. I'll think of a better way in
+ * the future.
  */
+
+; NOTE Future planning:
+
+	; Classes
+		; web_browsers
+			; Example := ["xyz", "A:\y\x\w"]
+		; music_players
+			; Clementine := ["xyz", "A:\y\x\w"]
+		; text_editors
+		; video_players
+		; torrent_client
+		; terminal_client
 
 ; web_browser
 if FileExist(MicrosoftEdge[2]) {
@@ -126,6 +139,7 @@ if FileExist(qbittorrent[2]) {
 	torrent_client := qbittorrent
 }
 
+; terminal_client
 if FileExist(Cmder[2]) {
 	terminal_client := Cmder
 } else if FileExist(WindowsTerminal[2]) {
